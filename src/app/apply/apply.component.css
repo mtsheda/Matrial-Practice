@@ -1,0 +1,51 @@
+.applySection{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.form{
+
+    width: 80%;
+    
+}
+
+mat-slider {
+    width: 300px;
+  }
+
+  span{
+
+    font-size: 2em;
+    color: grey;
+  }
+
+  .mainContainer{
+
+    height: 100vh;
+    background-color:lightblue;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.formArea{
+
+    height: 100%;
+    width: 60%;
+    border: 3px solid grey;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10PX;
+
+    
+}

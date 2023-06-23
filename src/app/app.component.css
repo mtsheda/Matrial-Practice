@@ -1,0 +1,29 @@
+.logo{
+
+    font-size: 2em;
+    font-weight: bolder;
+}
+span{
+
+    color: red;
+    font-weight: bolder;
+}
+
+.toolbar{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+
+    color: white;
+    text-decoration: none;
+}
+
+
+.pty{
+
+    font-size: 0.5em;
+    
+}
