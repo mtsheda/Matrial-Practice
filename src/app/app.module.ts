@@ -21,6 +21,7 @@ import { AffordabilityComponent } from './affordability/affordability.component'
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { ContactComponent } from './contact/contact.component';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {HttpClientModule} from '@angular/common/http';
 
 
 
@@ -33,6 +34,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
     ContactComponent
   ],
   imports: [
+    HttpClientModule,
     MatExpansionModule,
     MatProgressSpinnerModule,
     MatSliderModule,
